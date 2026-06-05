@@ -1,0 +1,79 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>นโยบายความเป็นส่วนตัว — QuickQuote TH</title>
+<meta name="theme-color" content="#0F766E">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--ink:#1A1A2E;--muted:#5C5C70;--line:#E6E6EF;--bg:#F7F7FB}
+  html{scroll-behavior:smooth}
+  body{font-family:"Sukhumvit Set","Noto Sans Thai","Thonburi",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+  .container{max-width:1120px;margin:0 auto;padding:0 24px}
+
+    .hero{background:linear-gradient(135deg,#0E7490,#22D3EE);color:#fff;padding:56px 0 40px}
+    .hero h1{font-size:30px;font-weight:800;letter-spacing:-.3px}
+    .hero .meta{opacity:.9;margin-top:10px;font-size:15px}
+    .doc{padding:40px 0 80px}
+    .doc h2{font-size:20px;margin:34px 0 10px;font-weight:700}
+    .doc p,.doc li{color:#23233a;font-size:16px}
+    .doc ul{padding-left:22px;margin:8px 0}
+    .doc li{margin:6px 0}
+    table{width:100%;border-collapse:collapse;margin:12px 0;font-size:15px}
+    th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+    th{background:#fff}
+    .back{display:inline-block;margin-top:8px;color:#fff;opacity:.95;font-size:14px;text-decoration:none}
+    .foot{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:14px}</style></head><body>
+  <header class="hero"><div class="wrap">
+    <a class="back" href="/">← th-utility.app</a>
+    <h1>นโยบายความเป็นส่วนตัว — QuickQuote TH</h1>
+    <div class="meta">อัปเดตล่าสุด: 31 พฤษภาคม 2569 · ผู้พัฒนา: TH Utility Apps</div>
+  </div></header>
+  <main class="doc"><div class="wrap">
+    <h2>1. บทนำ</h2>
+    <p>QuickQuote TH (“แอป”) เป็นเครื่องมือสำหรับสร้างใบเสนอราคาและส่งออกเป็น PDF แอปทำงานแบบออฟไลน์เป็นหลัก ไม่ต้องสมัครสมาชิก และเราไม่มีเซิร์ฟเวอร์ที่เก็บข้อมูลการใช้งานของคุณ นโยบายนี้อธิบายการเก็บ ใช้ และคุ้มครองข้อมูลตาม <b>พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (PDPA)</b></p>
+
+    <h2>2. ข้อมูลที่เราเก็บ</h2>
+    <table>
+      <tr><th>ประเภท</th><th>รายละเอียด</th><th>ที่เก็บ</th></tr>
+      <tr><td>ข้อมูลที่คุณป้อน</td><td>ข้อมูลลูกค้า รายการสินค้า/บริการ ใบเสนอราคา และโปรไฟล์ธุรกิจ</td><td>ในเครื่องของคุณเท่านั้น (AsyncStorage / ไฟล์ในแอป)</td></tr>
+      <tr><td>การตั้งค่าแอป</td><td>ธีม ฟอนต์ และการตั้งค่าอื่น ๆ</td><td>ในเครื่องของคุณเท่านั้น</td></tr>
+      <tr><td>การซื้อในแอป</td><td>สถานะปลดล็อกแบบจ่ายครั้งเดียว (lifetime)</td><td>ในเครื่อง + ยืนยันผ่าน App Store / Google Play</td></tr>
+    </table>
+    <p><b>เราไม่เก็บ</b> ชื่อ-นามสกุล อีเมล เบอร์โทร หรือข้อมูลระบุตัวตนบนเซิร์ฟเวอร์ของเรา เว้นแต่คุณติดต่อเราโดยสมัครใจ</p>
+
+    <h2>3. วัตถุประสงค์และฐานทางกฎหมาย</h2>
+    <ul>
+      <li><b>ให้บริการแอป</b> — บันทึกและแสดงข้อมูลที่คุณป้อน (ฐาน: สัญญา / ประโยชน์โดยชอบด้วยกฎหมาย)</li>
+      <li><b>การซื้อครั้งเดียว (lifetime IAP)</b> — ยืนยันสิทธิ์ใช้งานเต็มรูปแบบ (ฐาน: สัญญา)</li>
+      
+    </ul>
+
+    <h2>4. การแชร์ข้อมูล</h2>
+    <ul>
+      <li><b>ไม่ขายข้อมูล</b> ให้บุคคลที่สาม</li>
+      <li><b>ไม่มีโฆษณา</b> และไม่มี SDK ติดตามพฤติกรรม</li>
+      <li>ข้อมูลออกจากเครื่องเฉพาะเมื่อ <b>คุณแชร์เอง</b> (เช่น แชร์ผลลัพธ์/PDF ผ่าน LINE หรือแอปอื่น)</li>
+      <li><b>Apple / Google</b> ประมวลผลการชำระเงิน IAP ตามนโยบายของแต่ละแพลตฟอร์ม</li>
+    </ul>
+
+    <h2>5. ระยะเวลาเก็บรักษา</h2>
+    <p>ข้อมูลอยู่ในเครื่องจนกว่าคุณจะลบในแอป ล้างข้อมูล หรือถอนการติดตั้ง เราไม่มีสำเนาบนคลาวด์</p>
+
+    <h2>6. สิทธิของเจ้าของข้อมูล (PDPA)</h2>
+    <p>คุณมีสิทธิเข้าถึง แก้ไข ลบ หรือคัดค้านการประมวลผลข้อมูลที่อยู่ในเครื่อง โดยใช้ฟังก์ชันในแอปหรือถอนการติดตั้ง หากต้องการติดต่อผู้ควบคุมข้อมูล: <a href="mailto:privacy@th-utility.app">privacy@th-utility.app</a></p>
+
+    <h2>7. ความปลอดภัย</h2>
+    <p>ข้อมูลเก็บใน sandbox ของแอปบนอุปกรณ์ ขึ้นอยู่กับการป้องกันของ iOS / Android เราไม่ส่งข้อมูลผ่านเครือข่ายของเรา</p>
+
+    <h2>8. เด็ก</h2>
+    <p>แอปไม่ได้มุ่งเป้าหมายเด็กอายุต่ำกว่า 13 ปีโดยเฉพาะ</p>
+
+    <h2>9. การเปลี่ยนแปลงนโยบาย</h2>
+    <p>เราอาจปรับปรุงนโยบายนี้ โดยแจ้งวันที่ “อัปเดตล่าสุด” บนหน้านี้</p>
+
+    <h2>10. ติดต่อ</h2>
+    <p>TH Utility Apps · <a href="mailto:privacy@th-utility.app">privacy@th-utility.app</a></p>
+  </div></main>
+  <footer class="foot"><div class="wrap">© 2569 TH Utility Apps · <a href="/privacy/">นโยบายทั้งหมด</a> · <a href="/">หน้าแรก</a></div></footer></body></html>
